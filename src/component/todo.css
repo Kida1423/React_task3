@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.input_task{
+   display: flex;
+   align-items: center;
+}
+.input_task input{
+    padding: 10px;
+margin-right: 10px;
+
+}
+.app {
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .add-task-form {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-bottom: 10px;
+    float: right;
+    width: 100%;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  
+  .task.completed span {
+    text-decoration: line-through;
+  }
+  
+.task span{
+    width: 50ch; 
+    word-wrap: break-word; 
+    white-space: normal;    
+}
+
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  
